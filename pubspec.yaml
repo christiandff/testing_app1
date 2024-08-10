@@ -1,0 +1,32 @@
+name: testing_app1
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Add other dependencies here, if any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets to your application, like this:
+  # assets:
+  #   - assets/flames.png
+
+  # Add custom fonts to your application, like this:
+  # fonts:
+  #   - family: YourFontFamily
+  #     fonts:
+  #       - asset: fonts/YourFontFile.ttf
